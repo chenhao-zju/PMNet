@@ -1,4 +1,4 @@
-## PMNet and DAM
+## PMNet(WACV2024) and DAM(Neucom)
 Official code for Pixel Matching Network and Dense Affinity Matching (DAM) network.
 
 <p align="middle">
@@ -38,8 +38,8 @@ Create a directory 'datasets' and appropriately place coco to have following dir
     datasets/
         └── COCO2014/           
             ├── annotations/
-            │   ├── train2014/  # (dir.) training masks (from Google Drive) 
-            │   ├── val2014/    # (dir.) validation masks (from Google Drive)
+            │   ├── train2014/  # (dir.) training masks
+            │   ├── val2014/    # (dir.) validation masks
             │   └── ..some json files..
             ├── train2014/
             └── val2014/
@@ -85,3 +85,25 @@ For testing, you have to prepare a pretrained model.
 
 ## BibTeX
 If you are interested in our paper, please cite:
+```
+@InProceedings{Chen_2024_WACV,
+    author    = {Chen, Hao and Dong, Yonghan and Lu, Zheming and Yu, Yunlong and Han, Jungong},
+    title     = {Pixel Matching Network for Cross-Domain Few-Shot Segmentation},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2024},
+    pages     = {978-987}
+}
+```
+```
+@article{CHEN2024127348,
+title = {Dense affinity matching for Few-Shot Segmentation},
+journal = {Neurocomputing},
+volume = {577},
+pages = {127348},
+year = {2024},
+issn = {0925-2312},
+author = {Hao Chen and Yonghan Dong and Zheming Lu and Yunlong Yu and Yingming Li and Jungong Han and Zhongfei Zhang}
+}
+```
+
